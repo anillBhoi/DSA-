@@ -1,4 +1,4 @@
-package Arrays;
+package Stack;
 
 // Grind 75
 
