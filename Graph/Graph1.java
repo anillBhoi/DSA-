@@ -43,7 +43,7 @@ public class Graph1 {
         int v = 4;
         ArrayList<Edge>graph[] = new ArrayList[v];
         createGraph(graph);
-
+        
         // print the 2's neighbour
         for(int i=0; i<graph[2].size(); i++){
             Edge e = graph[2].get(i);
