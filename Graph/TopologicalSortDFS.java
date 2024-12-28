@@ -6,6 +6,7 @@
   // it is linear order of vertices such that every directed  edge U -> v, 
   // the vertex u comes before v in the order.
 
+   // Fact -> A DAG has at least one vertex with in-degree 0 and one vertex with out-degree 0.
   /*
    * basically wo kaam jiski aur kam pe dependency hai aur wo pahle hona chahiye bad me baki ke kam hone chahiye.
    * for ex - Action 1. Boil water
@@ -29,7 +30,7 @@
 import java.util.ArrayList;
 import java.util.Stack;
 
-public class TopologicalSort {
+public class TopologicalSortDFS {
      static class Edge{
       int src; 
       int dest;
