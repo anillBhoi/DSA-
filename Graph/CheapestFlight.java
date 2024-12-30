@@ -70,14 +70,14 @@
                  dist[i] = Integer.MAX_VALUE;
               }
            }
-          // here priorityQueue is not required becos the Info is being storing in sorted order due to k stops 
+           // here priorityQueue is not required becos the Info is being storing in sorted order due to k stops 
           // becos when it goes next vertex it autmatically increase the stop by 1 so there is no required of priorityQueue
            Queue<Info>q = new LinkedList<>();
            q.add(new Info(src, 0, 0));
   
            while(!q.isEmpty()){
               Info curr = q.remove();
-               if(curr.stops > k){  // agar q me stops k se jyada hai to aage dekhani ki jaroorat hi nhi hai wahi se break karna hai 
+               if(curr.stops > k){     // agar q me stops k se jyada hai to aage dekhani ki jaroorat hi nhi hai wahi se break karna hai 
                  break;
                }
                // go for neighbours 
