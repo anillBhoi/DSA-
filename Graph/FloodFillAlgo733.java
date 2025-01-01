@@ -9,7 +9,7 @@
       if(sr < 0 || sc < 0 || sr >= image.length || sc >= image[0].length || vis[sr][sc] || image[sr][sc] != orgColor){
            return;
       }
-
+      image[sr][sc] = color;
       // left 
       helper(image, sr, sc-1, color, vis, orgColor);
 
