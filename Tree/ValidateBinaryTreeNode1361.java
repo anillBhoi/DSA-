@@ -1,7 +1,7 @@
 
 
 class ValidateBinaryTreeNode1361  {
-    public boolean validateBinaryTreeNodes(int n, int[] leftChild, int[] rightChild) {
+    public boolean validateBinaryTreeNodes(int n, int[] leftChild, int[] rightChild) {   // tc O(N)
         Map<Integer, List<Integer>> parentToChildren = new HashMap<>();
         Map<Integer, Integer> childToParent = new HashMap<>();
 
