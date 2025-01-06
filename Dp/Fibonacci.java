@@ -18,9 +18,9 @@ public class Fibonacci {
         if(n == 0 || n == 1){
             return n;
         }
-        // initialize the dp 
-        dp[0] = 0; 
-        dp[1] = 1; 
+       // initialize the dp 
+        // dp[0] = 0; 
+        // dp[1] = 1; 
         
         // check if curr n is find or not 
         if(dp[n] != 0){  // allready finds the fib of n so use it 
