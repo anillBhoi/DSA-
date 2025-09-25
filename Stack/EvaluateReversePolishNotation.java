@@ -33,7 +33,6 @@ public class EvaluateReversePolishNotation {
                  s.push(String.valueOf(b / a));
                     break;
              }
-
            }
         }
         return Integer.parseInt(s.pop());
